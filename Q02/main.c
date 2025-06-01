@@ -19,7 +19,7 @@ typedef struct dqueue {
 // Creating the Dequeue.
 void CreateDqueue (Dqueue *q) {
     q -> count = 0;
-    q -> front = -1;
+    q -> front = 0;
     q -> rear = -1;
 }
 
